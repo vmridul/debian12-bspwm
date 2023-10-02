@@ -5,13 +5,14 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo apt install bspwm polybar alacritty brightnessctl dunst rofi lsd jq policykit-1-gnome git playerctl mpd xclip ncmpcpp geany ranger mpc picom xdotool feh ueberzug maim pamixer libwebp-dev xdg-user-dirs webp-pixbuf-loader xorg physlock papirus-icon-theme fonts-jetbrains-mono fonts-inconsolata  zsh zsh-autosuggestions zsh-syntax-highlighting
 
 bash -c  "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)" 
+bash -c  "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)" 
+bash -c  "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)" 
 
 cd
 git clone https://github.com/gh0stzk/dotfiles.git
 
-systemctl --user enable mpd.service
-systemctl --user start mpd.service
-
-chsh -s /usr/bin/zsh
+#systemctl --user enable mpd.service
+#systemctl --user start mpd.service
+#chsh -s /usr/bin/zsh
 
 
